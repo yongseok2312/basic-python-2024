@@ -25,8 +25,42 @@ print(test_val)
 
 ### 진수
 bit8 = 0b1000
-oct9 = 0o11
-hex255 = 0xFF
+oct9 = 0o11 #0,1,2,3,4,5,6,7,10,11,12,13,14
+hex255 = 0xFF #0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10
 print(bit8)
 print(oct9)
 print(hex255)
+
+## 문자형 - 파이썬에는 문자, 문자열 차이가 없음
+greeting = 'Hello!'
+greeting = "Hello!" # '," 모두 문자열을 나타냄
+print(greeting)
+
+multi_str = '''Hello\nI am a programmer.\nHave a good afternoon.''' # ''' == """"
+print(multi_str)
+multi_str2 = ('Line1\n'
+              'Line2\n'
+              'Line3') # () 를 다 쓰거나, 문장 끝마다 \를 붙이기
+print(multi_str2)
+
+## 불형 (Bool)
+
+isCheck = False
+print(isCheck)
+
+isCheck = True
+print(isCheck)
+
+answer = (3==6)
+print(answer)
+answer = (3.0==3)
+print ( answer)
+
+## 자료형이 어떤 타입인지 체크
+print(type(apple))
+print(type(hundred))
+print(type(test_val))
+print(type(hex255))
+print(type(greeting))
+print(type(isCheck))
+
