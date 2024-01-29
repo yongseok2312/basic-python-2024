@@ -24,4 +24,4 @@ print (5!=4)
 
 print(5<=4 and (5/2 < 3)) # False and 기준으로 왼쪽 / 오른쪽 모두 참이어야 함
 print( 5 <= 4 or (5/2 <3)) # True 한쪽만 참이어도 참
-print(not(5<4))
+print(not(5<4)) # 참이면 거짓으로, 거짓이면 참으로 반대로
