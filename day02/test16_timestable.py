@@ -14,3 +14,4 @@ for j in range(2,10):
      print()                                     # for문이 끝나면 엔터
 
 
+
