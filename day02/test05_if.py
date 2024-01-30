@@ -14,3 +14,4 @@ elif number == 0:
     print(number,'입니다')
 else:
     print('음수입니다')
+    

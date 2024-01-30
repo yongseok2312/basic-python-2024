@@ -10,3 +10,4 @@ if now.hour < 12:
 
 else:   # if now.hour >=12:
     print('오후입니다.')
+    

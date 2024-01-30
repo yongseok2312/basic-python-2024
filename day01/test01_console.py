@@ -7,3 +7,4 @@ print('Hello, World!')
 # python test01_console.py 로 콘솔 실행
 # CS code에서 ctrl + F5 (실행 > 디버깅 없이 실행)
 
+

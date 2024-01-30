@@ -14,3 +14,4 @@ elif month == '04' and day == '14' :
     print('짜장면이나 드셈')
 else:
     print('보통날입니다')
+    
