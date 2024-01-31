@@ -31,7 +31,7 @@ class car:
     def __str__(self) -> str:
         return f'제 차는 {self.__plate_num}입니다. {self.color}입니다'
 
-    def getplatenumber(self): # 외부에서는 접근 할 수 없도록 막는 조치
+    def getplatenumber(self): # 외부에서는 접근 할 수 없도록 막는 조치 (캡슐화)
         return self.__plate_num
     def setplatenumber(self, new_platenumber):
         self.__plate_num = new_platenumber
@@ -53,3 +53,4 @@ print(sarah)
 
 sarah.setplatenumber('231245')  # 캡슐화!
 print(sarah)
+
