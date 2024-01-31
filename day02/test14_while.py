@@ -25,7 +25,7 @@ while True:
     
     if str(number) in ['3','6','9']:
         print('짝')
-        print(type(number))
+        print(type(str(number)))
     
     else:
         print(number)
