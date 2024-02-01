@@ -88,7 +88,7 @@
         ```
      - 텍스트 파일 입출력
     ```python
-    f = open('파일명', mode='r/w/a', encoding='cp949/utf-8'
+    f = open('파일명', mode='r/w/a', encoding='cp949/utf-8')
     f.read()
     f.readlines()   # 읽기
     f.writh('text') # 쓰기
@@ -98,8 +98,9 @@
 
 - 파이썬 활용
     - 주피터 노트북
-
-     
+        - ctrl + shift + p (명령팔레트) 로 시작
+        - test31_jupyternotebook 참조
+    - folium 기본 사용
      
      - 가상 환경
 
