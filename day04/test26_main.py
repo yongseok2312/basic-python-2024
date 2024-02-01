@@ -11,3 +11,5 @@ if __name__ == '__main__':
     print('제가 시작점입니다.')
     tt = Temp()
     print(type(tt))
+
+
