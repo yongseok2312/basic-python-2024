@@ -96,12 +96,19 @@
     ```
 
 
-- 파이썬 활용
+- 파이썬 응용
     - 주피터 노트북
         - ctrl + shift + p (명령팔레트) 로 시작
         - test31_jupyternotebook 참조
     - folium 기본 사용
-     
+    ![forium 사용법](https://raw.githubusercontent.com/yongseok2312/basic-python-2024/main/image/2024-02-01%2017%2016%2001.png)
+
+## 5일차
+- 파이썬 응용
+    - 주피터 노트북 호라용 - 구글 코랩(Colab)
+
+
+    
      - 가상 환경
 
 
