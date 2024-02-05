@@ -127,17 +127,36 @@
     - ※쓰레드 학습 : UI쓰레드와 Background쓰레드 분리
         - GIL, 병렬프로세싱 더 학습할 것
 
-        
+
     ![쓰레드예제](https://raw.githubusercontent.com/yongseok2312/basic-python-2024/main/image/KakaoTalk_20240205_165406789.gif)
 
+    ```python
+    # 쓰레드 클래스에서 시그널 선언
+    class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
+        initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기위한 변수객체
+        setSignal = pyqtSignal(int)
+        # ...
 
-    
+        def run(self) -> None: # 스레드 실행
+            # 스레드로 동작할 내용
+            maxVal = 1000001
+            self.initSignal.emit(maxVal) # UI쓰레드로 보내기...
+            # ...
+
+    class qtwin_exam(QWidget):  # UI 스레드
+        # ...
+        def btnStartClicked(self):
+            th = BackWorker(self)
+            th.start() # BackWorker 내의 self.run() 실행
+            th.initSignal.connect(self.initPgbTask) # 스레드에서 초기화 시그널이 오면 initPgbTask 슬롯함수가 대신 처리
+            # ...    
+    ```
+
+
+
+
+
 - 가상 환경
-
-
-
-
-
 
     - 객체지향(나중에...)
         - 오버로딩, 오버라이딩(재정의)
