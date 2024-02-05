@@ -111,9 +111,26 @@
     - json 입출력
     - 응용 예제 연습
         - iP 주소 확인
+        - qr code 만들기
+    
+## 6일차
+- Python 라이브러리 경로 : C:\DEV\Langs\Python311\Lib\site-packages
+- 파이썬 응용
+    - window App(PyQt) 만들기
+
+    ```shell
+    >pip install PyQt5 
+    >pip isntall PyQt5Designer
+    ```
+    - PyQt5 기본 실행
+    - QtDesigner 사용법
+    - ※쓰레드 학습 : UI쓰레드와 Background쓰레드 분리
+        - GIL, 병렬프로세싱 더 학습할 것
+    ![쓰레드예제](https://raw.githubusercontent.com/yongseok2312/basic-python-2024/main/image/KakaoTalk_20240205_165406789.gif)
+
 
     
-     - 가상 환경
+- 가상 환경
 
 
 
