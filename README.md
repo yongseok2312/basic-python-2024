@@ -168,8 +168,9 @@
         - 이미지 뷰어
         - 이미지 에디터
 
-    ![PyQt예제](https://raw.githubusercontent.com/yongseok2312/basic-python-2024/main/image/2024-02-06 17 19 04.jpg)
+    ![PyQt예제](https://raw.githubusercontent.com/yongseok2312/basic-python-2024/main/image/2024-02-06171904.jpg)
 
 ## 8일차
 - 파이썬 응용
+    - PyQt5 응용예제 계속
 - 파이썬 기본 코딩테스트
