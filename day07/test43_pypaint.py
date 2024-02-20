@@ -16,8 +16,11 @@ class WinApp(QWidget):
         self.initSignal()
 
     def initUI(self):
-        uic.loadUi('./day07/pyPaint_1.ui', self)
-        self.setWindowIcon(QIcon('./image/그림판.jpg'))
+        # uic.loadUi('./day07/pyPaint_1.ui', self)
+        uic.loadUi('C:/sources/basic-python-2024/day07/pyPaint_1.ui',self)    # 실행 파일 생성시 경로에 절대경로를 사용
+        # self.setWindowIcon(QIcon('image/그림판.jpg'))
+        self.setWindowIcon(QIcon('C:/sources/basic-python-2024/day07/그림판.jpg'))
+
         self.setWindowTitle('py 그림판')
         # 캔버스 초기화
         self.brushColor = Qt.black
